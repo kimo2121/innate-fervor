@@ -1,0 +1,121 @@
+.lizard-men {
+  background-image: url(/src/assets/LizardBG.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 1150px;
+  height: 670px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 100px;
+  box-sizing: border-box;
+}
+
+.lizard-header {
+  background-image: url(/src/assets/Khung.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 370px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.lizard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.each-lizard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.each-lizard div {
+  background-image: url(/src/assets/LizardMen.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 185px;
+  height: 255px;
+}
+.each-lizard p {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1200px) {
+  .lizard-men {
+    width: 950px;
+    height: 1150px;
+    background-size: 950px 1100px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .lizard-men {
+    width: 750px;
+    height: 1150px;
+    background-size: 750px 1100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lizard-men {
+    background-image: none;
+    width: 550px;
+    padding: 0;
+    height: 2400px;
+  }
+  .lizard-header {
+    width: 300px;
+  }
+  .each-lizard div {
+    background-image: url(/src/assets/LizardMen.png);
+    background-size: 400px 450px;
+    width: 500px;
+    height: 450px;
+  }
+  .each-lizard img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .lizard-men {
+    width: 420px;
+    height: 2100px;
+  }
+  .each-lizard div {
+    background-size: 300px 350px;
+    width: 400px;
+    height: 350px;
+  }
+  .each-lizard img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lizard-men {
+    width: 350px;
+    height: fit-content;
+  }
+  .each-lizard div {
+    background-size: 200px 250px;
+    width: 300px;
+    height: 250px;
+  }
+  .each-lizard img {
+    width: 100px;
+  }
+}

@@ -1,0 +1,24 @@
+.coming-soon {
+  background-image: url(/src/assets/gate.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1024px;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coming-soon h1 {
+  background-image: url(/src/assets/coming.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 518px;
+  margin: 0;
+  color: #a4702e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 137px;
+}

@@ -1,0 +1,171 @@
+.pze {
+}
+
+.container {
+  border-top: 3px solid #e27e42;
+  padding: 10px 10px 20px 10px;
+  background-color: #ffc7b6;
+  height: 225px;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab1 {
+}
+
+.tab {
+  background-color: #e27f428c;
+  color: rgba(255, 255, 255, 0.623);
+  padding: 10px;
+  margin: 0 10px;
+  box-sizing: border-box;
+  width: 90px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.tab.active {
+  color: white;
+  background-color: #e27e42;
+}
+.tab:first-child {
+  margin-left: 0;
+}
+.tab:last-child {
+  margin-right: 0;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container h3 {
+  margin: 0;
+}
+
+/* .sub1-tab1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .sub1-tab1 div span {
+    display: block;
+} */
+.sub1-tab1 {
+  text-align: left;
+  justify-content: space-between;
+}
+.sub1-tab1 div {
+  display: flex;
+}
+.sub1-tab1,
+.sub2-tab1,
+.sub3-tab1,
+.sub4-tab1 {
+  background-color: #e27e42;
+  border-radius: 8px;
+  padding: 6px 20px;
+}
+
+.sub2-tab1,
+.sub3-tab1,
+.sub4-tab1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.price {
+  background-color: #ffc7b6;
+  width: 422px;
+  height: 67px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.price h2 {
+  color: black;
+  margin: 0;
+}
+
+.price p {
+  margin: 0;
+  color: #e27e42;
+}
+
+.buy {
+  background-image: url(/src/assets/Khung.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 340px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  color: #a4702e;
+  font-weight: 700;
+  font-size: 26px;
+}
+@media screen and (max-width: 990px) {
+  .tab {
+    width: 80px;
+  }
+  .pze {
+    width: 380px;
+    position: relative;
+    left: -20px;
+  }
+  .price {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pze {
+    width: 380px;
+    position: relative;
+    left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pze {
+    width: 260px;
+    position: relative;
+    left: 0;
+  }
+  .price {
+    width: 240px;
+  }
+  .first {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .buy {
+    width: 240px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    color: #a4702e;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .tab {
+    height: 60px;
+    width: 70px;
+    margin: 0 5px;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .second p:first-child {
+    margin-bottom: 0;
+  }
+}

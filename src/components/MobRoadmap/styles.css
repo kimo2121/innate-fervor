@@ -1,0 +1,37 @@
+.mob-roadmap {
+  display: none;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.mob-roads div p span {
+  color: #ff1493;
+}
+.mob-dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: #ff1493;
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 2px;
+}
+.roadmap-pile {
+  min-height: 102vh;
+  /* background-color: #ff1493; */
+  border-left: 2px dashed #ff1493;
+  margin-right: 20px;
+  /* border-style: dashed; */
+}
+.mob-roads div {
+  text-align: left;
+  margin-bottom: 80px;
+}
+.mob-roads div:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .mob-roadmap {
+    display: flex;
+    justify-content: center;
+  }
+}

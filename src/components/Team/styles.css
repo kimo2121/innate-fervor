@@ -1,0 +1,40 @@
+.member {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team {
+  width: 1120px;
+  margin: 0 auto;
+}
+.each-member img {
+  height: 278px;
+  width: 220px;
+}
+@media screen and (max-width: 1200px) {
+  .team {
+    width: 950px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .team {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .team {
+    width: 100%;
+  }
+  .each-member {
+    margin: 20px 0;
+  }
+  .member {
+    flex-direction: column;
+  }
+}

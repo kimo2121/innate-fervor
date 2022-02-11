@@ -1,0 +1,56 @@
+.each-component {
+  background-image: url(/src/assets/LizardMen.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  width: 220px;
+  height: 310px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  margin: 20px;
+}
+
+.each-component img {
+  width: 130px;
+  height: 170px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.comp-price,
+.comp-id-name {
+  display: flex;
+  justify-content: center;
+  color: #d33b00;
+  align-items: center;
+}
+.main-comp-id {
+  padding: 2px 18px;
+  box-sizing: border-box;
+  color: white;
+  background-color: yellow;
+}
+.comp-id-name,
+.main-comp-id {
+  margin-bottom: 5px;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.comp-price {
+  margin: 0 auto;
+}
+.comp-price span {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1750px) {
+  .each-component {
+  }
+}

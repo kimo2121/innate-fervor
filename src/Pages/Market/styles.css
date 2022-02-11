@@ -1,0 +1,114 @@
+.market {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/assets/banner.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.market-place {
+  background-image: url(/src/assets/marketFrame.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 900px;
+}
+
+.right-slider {
+  width: 1500px;
+  margin: 0 auto;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frame-container {
+  background-image: url(/src/assets/market1.png);
+  background-size: 1440px 1100px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding: 150px 100px;
+  height: 1100px;
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1750px) {
+  .right-slider {
+    width: 1400px;
+  }
+  .frame-container {
+    background-size: 1240px 1100px;
+    height: 1100px;
+    width: 1240px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .right-slider {
+    width: 1100px;
+  }
+  .frame-container {
+    background-size: 1040px 1500px;
+    height: 1500px;
+    width: 1040px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .right-slider {
+    width: 740px;
+  }
+  .frame-container {
+    background-size: 740px 1900px;
+    height: 1900px;
+    width: 740px;
+    padding: 150px 50px;
+  }
+
+  .market {
+    min-height: 150vh;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .right-slider {
+    width: 940px;
+  }
+  .frame-container {
+    background-size: 940px 1400px;
+    height: 1400px;
+    width: 940px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .right-slider {
+    width: 740px;
+  }
+  .frame-container {
+    background-size: 740px 1900px;
+    height: 1900px;
+    width: 740px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .right-slider {
+    width: 100%;
+  }
+  .frame-container {
+    background-image: none;
+    width: 100%;
+    height: fit-content;
+  }
+  .market {
+    /* min-height: 370vh; */
+  }
+}
