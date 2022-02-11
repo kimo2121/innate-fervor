@@ -34,7 +34,7 @@
   font-size: 22px;
   position: relative;
 }
-.intro p {
+.intro > p {
   font-family: "WindSong";
   font-weight: 700;
   word-spacing: 5px;
