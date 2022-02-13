@@ -1,6 +1,6 @@
 .navbar {
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.404);
+  background-color: rgba(255, 255, 255, 0.678);
   box-sizing: border-box;
   width: 100%;
   display: flex;
@@ -8,7 +8,7 @@
   justify-content: center;
   position: relative;
   padding: 20px 0 20px 0;
-  height: 103px;
+  height: 83px;
 }
 
 .web-nav {
