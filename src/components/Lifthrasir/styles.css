@@ -74,9 +74,9 @@
 }
 @media screen and (max-width: 768px) {
   .lifthrasir {
-    background-image: url(/src/assets/asset13.png);
-    background-size: 500px 3550px;
-    width: 500px;
+    background-image: url(/src/assets/lifthasri.png);
+    background-size: 100% 3550px;
+    width: 90%;
     height: 3600px;
   }
   .lifthrasir-top,
@@ -87,14 +87,18 @@
 }
 @media screen and (max-width: 576px) {
   .lifthrasir {
-    background-image: none;
-    width: 90%;
-    height: fit-content;
+    /* background-image: url(/src/assets/lifthasri2.png); */
+    background-size: 90% 3550px;
+    height: 3600px;
   }
   .lifthrasir-top,
   .lifthrasir-bottom {
     width: 100%;
     height: fit-content;
+  }
+  .lif-header {
+    height: 50px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 450px) {

@@ -14,6 +14,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0 5px;
   margin-bottom: 80px;
   padding: 0px 20px;
   box-sizing: border-box;
@@ -29,6 +30,9 @@
   .features {
     width: 950px;
   }
+  .features-container {
+    justify-content: space-around;
+  }
 }
 
 @media screen and (max-width: 990px) {
@@ -40,7 +44,7 @@
   .features {
     width: 100%;
   }
-  .features-container {
-    justify-content: center;
+
+  .each-feature {
   }
 }

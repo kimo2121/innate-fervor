@@ -63,6 +63,9 @@
     height: 1150px;
     background-size: 950px 1100px;
   }
+  .lizard-men {
+    background-image: url(/src/assets/LizardBG2.png);
+  }
 }
 @media screen and (max-width: 990px) {
   .lizard-men {
@@ -73,17 +76,18 @@
 }
 @media screen and (max-width: 768px) {
   .lizard-men {
-    background-image: none;
-    width: 550px;
+    background-image: url(/src/assets/LizardBG3.png);
+    background-size: 90% 2500px;
+    width: 100%;
     padding: 0;
-    height: 2400px;
+    height: 2500px;
   }
   .lizard-header {
     width: 300px;
   }
   .each-lizard div {
-    background-image: url(/src/assets/LizardMen.png);
-    background-size: 400px 450px;
+    background-image: url(/src/assets/LizardMen3.png);
+    background-size: 350px 450px;
     width: 500px;
     height: 450px;
   }
@@ -93,29 +97,26 @@
 }
 @media screen and (max-width: 576px) {
   .lizard-men {
-    width: 420px;
-    height: 2100px;
+    width: 90%;
+    background-size: 90% 1900px;
+    background-image: url(/src/assets/LizardBG4.png);
+    height: 1900px;
   }
   .each-lizard div {
-    background-size: 300px 350px;
-    width: 400px;
-    height: 350px;
+    background-size: 200px 300px;
+    width: 300px;
+    height: 300px;
   }
   .each-lizard img {
+    width: 150px;
+  }
+  .lizard-header {
     width: 200px;
   }
 }
 @media screen and (max-width: 450px) {
-  .lizard-men {
-    width: 350px;
-    height: fit-content;
-  }
   .each-lizard div {
-    background-size: 200px 250px;
-    width: 300px;
-    height: 250px;
   }
   .each-lizard img {
-    width: 100px;
   }
 }

@@ -61,6 +61,7 @@
   .frame-container {
     background-size: 1040px 1500px;
     height: 1500px;
+
     width: 1040px;
   }
 }
@@ -69,6 +70,7 @@
     width: 740px;
   }
   .frame-container {
+    background-image: url(/src/assets/market.png);
     background-size: 740px 1900px;
     height: 1900px;
     width: 740px;
@@ -84,9 +86,10 @@
     width: 940px;
   }
   .frame-container {
-    background-size: 940px 1400px;
+    background-size: 100% 1400px;
     height: 1400px;
-    width: 940px;
+    background-image: url(/src/assets/market2.png);
+    width: 100%;
   }
 }
 @media screen and (max-width: 950px) {
@@ -94,9 +97,8 @@
     width: 740px;
   }
   .frame-container {
-    background-size: 740px 1900px;
+    background-size: 100% 1900px;
     height: 1900px;
-    width: 740px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -104,11 +106,15 @@
     width: 100%;
   }
   .frame-container {
-    background-image: none;
+    background-size: 100% 100%;
     width: 100%;
-    height: fit-content;
+    height: auto;
   }
   .market {
-    /* min-height: 370vh; */
+  }
+}
+@media screen and (max-width: 625px) {
+  .frame-container {
+    background-image: url(/src/assets/market3.png);
   }
 }

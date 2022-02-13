@@ -44,7 +44,7 @@ const BasicModal: React.FC<Types> = ({ navbar }) => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style}>
+        <Box className="box-style" sx={style}>
           {navbar ? (
             <Wallets handleClose={handleClose} />
           ) : (
