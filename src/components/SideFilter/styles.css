@@ -8,7 +8,7 @@
   border-right: 1px solid #a4702e;
   background-image: url(/src/assets/banner.png);
   background-position: left bottom;
-  min-height: 100vh;
+  height: auto;
   position: relative;
 }
 .side-filter-mob {
