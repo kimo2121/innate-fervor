@@ -27,6 +27,7 @@
   align-items: center;
   position: relative;
   justify-content: center;
+  flex-direction: column;
   box-sizing: border-box;
 }
 .frame-container {
@@ -45,6 +46,62 @@
   position: relative;
   box-sizing: border-box;
 }
+.paginationBttns {
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  position: relative;
+  display: flex;
+}
+.paginationBttns a {
+  padding: 8px;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffb657;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.paginationActive a {
+  background-image: url(/src/assets/paginaton.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60px 40px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 40px;
+}
+
+.pagination {
+  font-size: 30px;
+  position: relative;
+  background-image: url(/src/assets/paginaton.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80px 50px;
+  width: 80px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-left {
+  left: -50%;
+}
+.pagination-right {
+  right: -50%;
+}
+.previousBttn,
+.nextBttn {
+  background-color: transparent !important;
+}
+
+.right-arrow {
+}
+
 @media screen and (max-width: 1750px) {
   .right-slider {
     width: 1400px;
@@ -104,6 +161,7 @@
   .right-slider {
     width: 100%;
   }
+
   .frame-container {
     background-size: 100% 100%;
     width: 100%;
@@ -113,5 +171,29 @@
 @media screen and (max-width: 625px) {
   .frame-container {
     background-image: url(/src/assets/market3.png);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pagination {
+    font-size: 20px;
+    background-size: 60px 30px;
+    width: 60px;
+    height: 30px;
+  }
+  .pagination-left {
+    left: 0;
+  }
+  .pagination-right {
+    right: 0;
+  }
+  .paginationBttns a {
+    font-size: 20px;
+  }
+  .paginationActive a {
+    background-size: 50px 30px;
+    width: 50px;
+    font-size: 20px;
+    height: 30px;
   }
 }
