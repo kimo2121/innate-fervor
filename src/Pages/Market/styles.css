@@ -1,7 +1,7 @@
 .market {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-image: url(/src/assets/banner.png);
   background-position: center center;
   background-size: cover;
@@ -22,6 +22,7 @@
   width: 1500px;
   margin: 0 auto;
   height: 100%;
+  padding-top: 50px;
   display: flex;
   align-items: center;
   position: relative;
@@ -70,13 +71,13 @@
   }
   .frame-container {
     background-image: url(/src/assets/market.png);
-    background-size: 740px 1900px;
-    height: 1900px;
+    background-size: 740px 1550px;
+    height: 1550px;
     width: 740px;
-    padding: 150px 50px;
+    padding: 70px 50px;
   }
   .market {
-    min-height: 150vh;
+    /* min-height: 150vh; */
   }
 }
 @media screen and (max-width: 1050px) {

@@ -6,6 +6,7 @@ import { ReactComponent as Magnifier } from "../../assets/magnifier.svg";
 import MarketCard from "../../components/MarketCard/MarketCard";
 import SideFilter from "../../components/SideFilter/SideFilter";
 import BasicModal from "../../components/Modal/Modal";
+
 interface traitsTypes {
   Data: {
     price: string;

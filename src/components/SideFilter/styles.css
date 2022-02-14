@@ -1,5 +1,6 @@
 .side-filter {
   position: relative;
+  height: 100%;
 }
 .side-filter-web {
   padding-top: 100px;
@@ -8,7 +9,7 @@
   border-right: 1px solid #a4702e;
   background-image: url(/src/assets/banner.png);
   background-position: left bottom;
-  height: auto;
+  height: 1550px;
   position: relative;
 }
 .side-filter-mob {

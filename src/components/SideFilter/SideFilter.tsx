@@ -5,6 +5,7 @@ import { AiOutlineMenuUnfold, AiOutlineCloseCircle } from "react-icons/ai";
 
 const SideFilter = () => {
   const [menu, setMenu] = useState(false);
+
   return (
     <div className="side-filter">
       <div className="side-filter-web">
